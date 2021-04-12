@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Route path="/login" component={Loginpage} />
+        <Route path="/" component={Loginpage} />
         <Route path="/main" component={Mainmenu} />
       </BrowserRouter>
     </div>
